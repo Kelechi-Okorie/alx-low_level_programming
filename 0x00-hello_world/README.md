@@ -6,3 +6,4 @@ File 3-name - Script that compiles a c file and creates an executable named cisf
 File 4-puts.c - C program that prints exactly "Programming is like building a multilingual puzzle followed by a new line
 File 5-printf.c - C program that prints exactly with proper grammar, but the outcome is a piec of art, followed by a new line
 File 6-size.c - C program that prints the size of various types on the computer it is compiled and run on
+File 100-intel - Script that generates intel assembly code
