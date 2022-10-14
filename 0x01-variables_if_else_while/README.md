@@ -4,3 +4,4 @@ File 1-last_digit.c - A C program that prints the last digit of n and the result
 comparison this last digit with 5, 0 and 6
 File 2-print_alphabet.c - A C program that prints the alphabet in lowercase, followed by a new line
 File 3-print_alphabets.c - A C program that prints alphabets in lowercase and uppercase, followed by new line
+File 4-print_alphabt.c - A C program that prints the alphabets except q and e in lowercase followed new line
