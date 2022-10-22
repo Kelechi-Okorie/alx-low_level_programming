@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - tests function that prints if integer
- * is positive or negative
+ * main - Entry point
+ * Description: Tests positve_or_negative function
  *
  * Return: Always 0 (success)
  */
