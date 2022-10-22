@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+/* test comment */
 void positive_or_negative(int i);
 
 #endif /* _MAIN_H */
