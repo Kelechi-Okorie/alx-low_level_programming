@@ -5,7 +5,7 @@
 /**
  * positive_or_negative - Tests the sign of a number
  * @i: The integer to test the sign of
- * 
+ *
  * Description: prints where n is positive
  * or negative
  * Return: always 0 (success)
