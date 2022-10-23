@@ -7,3 +7,4 @@ File 3-print_numbers.c - A program that prints the numbers from 0 to 9
 File 4-print_most_numbers.c - A program that prints numbers from 0 to 9
 except 2 and 4
 File 5-more_numbers.c - A program that prints 10 times the numbers 0 to 14
+File 6-print_line.c - A program that draws straight line in the terminal
