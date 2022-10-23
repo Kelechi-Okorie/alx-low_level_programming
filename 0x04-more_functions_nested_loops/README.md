@@ -11,3 +11,4 @@ File 6-print_line.c - A program that draws straight line in the terminal
 File 7-print_diagonal.c - A program that draws diagonal line on the terminal
 File 8-print_square.c - A program that prints squares
 File 9-fixx_buzz.c - A Fizz-Buzz program
+File 10-print_triangle.c - A program that prints a triangle
