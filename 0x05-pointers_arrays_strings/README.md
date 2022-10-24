@@ -7,3 +7,4 @@ File 4-print_rev.c - A program that prints a string, in reverse
 File 5-rev_string.c - A program that reserves a string
 File 6-puts3.c - A program that prints every other character of a string
 File 7-puts_half.c - A program that prints half a string
+File 8-print_array.c - A program that prints n elements of an array of integers
