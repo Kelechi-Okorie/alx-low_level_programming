@@ -5,3 +5,4 @@ File 1-strncat.c - A program that concatenates n characters on one string to ano
 File 2-strncpy - A program that copies a string
 File 3-strcmp.c - A program that compares 2 strings
 File 4-rev_array.c - A program that reverses the content of an array of integers
+File 5-string_toupper.c - A program to change all lowercase letters of a string to uppercase
