@@ -2,6 +2,7 @@
  * _strncat - concatenates two strin
  * @dest: the string to concatenate to
  * @src: the string to concatenate from
+ * @n: the number of bytes to copy from @src
  *
  * Return: pointer to char
  */
@@ -20,6 +21,6 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (i = 0; i < n && src[i] != '\0'; i++)
 		dest[dest_len + i] = src[i];
-	
+
 	return (dest);
 }
