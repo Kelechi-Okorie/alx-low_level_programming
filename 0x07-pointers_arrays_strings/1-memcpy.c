@@ -1,10 +1,10 @@
 /**
- * _memcpy - copies memory are
- * @des: buffer to cpoy to
+ * _memcpy - copies memory area
+ * @dest: buffer to cpoy to
  * @src: buffer to copy from
  * @n: number of bytes to copy from @src to @dest
  *
- * Return: char pointer
+ * Return: pointer to memory copied to
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
