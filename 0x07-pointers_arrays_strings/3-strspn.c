@@ -7,7 +7,7 @@
  *
  * Return: number of bytes in @s before first mistmatch
  */
-unsigned int _strspn( char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int i;
 	int j;
