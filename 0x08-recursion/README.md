@@ -7,3 +7,4 @@ File 3-factorial.c - A program that returns factorial of a given number
 File 4-pow_recursion.c - A program that returns value of x raised to the
 power of y
 File 5-sqrt_recursion.c - A program that returns the natural square root of a number
+File 6-is_prime_number.c - A program that returns 1 if input integer is prime, or 0 otherwise
