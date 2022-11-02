@@ -14,6 +14,14 @@ int _sqrt_recursion(int n)
 	return (calc(n, 0));
 }
 
+/**
+ * calc - recurses on @n to get n's square root
+ * @n: the number to get the squre root of
+ * @i: used to ckeck when we get the square root of n;
+ *
+ * Return: square root of n
+ */
+
 int calc(int n, int i)
 {
 	int p;
