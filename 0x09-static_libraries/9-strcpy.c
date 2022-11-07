@@ -1,6 +1,6 @@
 /**
  * _strcpy - copies string pointer to by @src
- * including terminating null byte to buffer pointed 
+ * including terminating null byte to buffer pointed
  * to by @dest
  * @dest: buffer to copy to
  * @src: buffer to copy from
