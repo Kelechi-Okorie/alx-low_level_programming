@@ -10,7 +10,7 @@
  */
 char *argstostr(int ac, char **av)
 {
-	char *buffer;
+	char *buffer = NULL;
 	int i;
 	int j;
 	int k;
@@ -30,6 +30,9 @@ char *argstostr(int ac, char **av)
 	}
 
 	buffer = malloc((len + 1) + sizeof(char));
+
+	if (buffer == NULL)
+		return buffer;
 
 	for (i = 0; i < ac; i++)
 	{
