@@ -32,7 +32,7 @@ char *argstostr(int ac, char **av)
 	buffer = malloc((len + 1) + sizeof(char));
 
 	if (buffer == NULL)
-		return buffer;
+		return (buffer);
 
 	for (i = 0; i < ac; i++)
 	{
