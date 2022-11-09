@@ -19,7 +19,7 @@ char *argstostr(int ac, char **av)
 	len = 0;
 	k = 0;
 
-	if (ac <= 1 || av == NULL)
+	if (ac == 0 || av == NULL)
 		return (NULL);
 
 	for (i = 0; i < ac; i++)
@@ -29,7 +29,7 @@ char *argstostr(int ac, char **av)
 		len++;
 	}
 
-	buffer = (char *) malloc((len + 1) + sizeof(char));
+	buffer = malloc((len + 1) + sizeof(char));
 
 	for (i = 0; i < ac; i++)
 	{
