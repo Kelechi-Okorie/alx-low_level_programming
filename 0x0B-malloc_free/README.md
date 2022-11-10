@@ -7,3 +7,4 @@ File 2-str_concat.c - A program that concatenates 2 strings
 File 3-aloc_grid.c - A program returns a pointer to 2D array of integers
 File 4-free_grid.c - A program that frees a 2D array
 File 100-argstostr.c - A program that concatenates all the arguments of the program
+File 101-strtow.c - A program that splits a string into words
