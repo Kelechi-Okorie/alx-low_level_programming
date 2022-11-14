@@ -56,12 +56,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 	int name_len;
 	int owner_len;
 
+	name_len = _strlen(name);
+	owner_len = _strlen(owner);
+
 	ptr = malloc(sizeof(dog_t));
 
 	if (ptr == NULL)
 		return (NULL);
-
-	name_len = _strlen(name);
 
 	ptr->name = malloc(sizeof(char) * (name_len + 1));
 
