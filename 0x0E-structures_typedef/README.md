@@ -2,3 +2,4 @@
 
 File dog.h A program that defines a struct
 File 1-init_dog.c - A program that initialize a variable of type struct dog
+File 2-print_dog.c - A program that prints a struct dog
