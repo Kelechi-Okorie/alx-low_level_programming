@@ -13,7 +13,7 @@ void print_name_as_is(char *name)
 }
 
 /**
- * print_name_upper -print a name in uppercase
+ * print_name_upper - print a name in uppercase
  * @name: name of the person
  *
  * Return: Nothing.
