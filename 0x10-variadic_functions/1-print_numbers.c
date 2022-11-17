@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * void print_numbers - prints numbers
+ * print_numbers - prints numbers
  * @seperator: seperator in between numbers
  * @n: count of numbers to print
  * Description: prints numbers seperated by seperator
