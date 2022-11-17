@@ -25,11 +25,12 @@ void print_numbers(const char *seperator, const unsigned int n, ...)
 
 	for (i = 1; i < n; i++)
 	{
-		if (seperator != NULL)
-			printf("%s", seperator);
-
-		printf("%d", va_arg(ap, int));
+		if (seperator)
+			printf("%s%d", seperator, va_arg(ap, int));
+		else
+			printf("%d", va_arg(ap, int));
 	}
+
 	va_end(ap);
 
 	printf("\n");
