@@ -5,7 +5,7 @@
  *
  * Return: Always void
  */
-void __attribute__((constructor)) print_first();
+void print_first(void) __attribute__((constructor));
 
 void print_first(void)
 {
