@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * print_first - prints first before the main function
+ * first - prints first before the main function
  *
  * Return: Always void
  */
