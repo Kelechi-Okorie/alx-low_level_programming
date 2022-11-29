@@ -7,3 +7,4 @@ File 3-add_nodeint_ent.c - A program that adds node at the end of a list
 File 4-free_listint.c - A program that frees a list
 File 5-free_listint2.c - A program that frees a list
 File 6-pop_listint.c - A program that deletes head node
+file 7-get_nodeint.c - A program that returns the nth node of a list
