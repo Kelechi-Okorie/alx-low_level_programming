@@ -5,3 +5,4 @@ File 1-listint_len.c - A program that returns the number of elements in a linked
 File 2-add_nodeint.c - A program that adds a node at the beginning of a list
 File 3-add_nodeint_ent.c - A program that adds node at the end of a list
 File 4-free_listint.c - A program that frees a list
+File 5-free_listint2.c - A program that frees a list
