@@ -9,8 +9,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int fd_r, fd_w, r, w;
-	char buf_r[BUFSIZ];
+	int fd_r, fd_w, r, a, b;
+	char buf[BUFSIZ];
 
 	if (argc != 3)
 	{
@@ -24,9 +24,9 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	fd_w = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
-	while ((r = read(fd_r, buf_r, r)) > 0)
+	while ((r = read(fd_r, buf, r)) > 0)
 	{
-		if (fd_w < 0 || write(fd_w, buf_r, r) != r)
+		if (fd_w < 0 || write(fd_w, buf, r) != r)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			close(fd_r);
@@ -38,13 +38,13 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
-	r = close(fd_r);
-	w = close(fd_w);
-	if (r < 0 || w < 0)
+	a = close(fd_r);
+	b = close(fd_w);
+	if (a < 0 || b < 0)
 	{
-		if ((close(fd_r) < 0))
+		if (a < 0))
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_r);
-		if (close(fd_w) < 0)
+		if (b < 0)
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_w);
 		exit(100);
 	}
