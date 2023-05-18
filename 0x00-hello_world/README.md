@@ -7,3 +7,4 @@ File 4-puts.c - A C program thats prints a string
 File 5-printf.c - Prints a string
 File 6-size - prints the size of various types
 File 100-intel - generates intel assembly code syntax
+File 101-quote.c - prints a string without using printf and puts
