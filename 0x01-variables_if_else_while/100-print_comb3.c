@@ -17,14 +17,17 @@ int main(void)
 	{
 		for (j = '1'; j <= '9'; j++)
 		{
+			if (i == j)
+				continue;
+
 			putchar(i);
 			putchar(j);
 
-			if (j < '9')
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			if (i == '8' && j == '9')
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
 	}
 
