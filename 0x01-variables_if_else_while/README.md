@@ -8,3 +8,4 @@ File 5-print_numbers.c - prints all single digit numbers of base 10
 File 6-print_numberz.c - prints all single digit numbers of base 10
 File 6-print_tebapla.c - prints the lowercase alphabet in reverse
 File 8-print_base16.c - prints all the numbers of base 16 in lowercase
+File 9-print_comb.c - print all possible combinations of a single-digit numbers
