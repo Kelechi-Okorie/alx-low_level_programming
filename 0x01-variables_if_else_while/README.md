@@ -10,3 +10,4 @@ File 6-print_tebapla.c - prints the lowercase alphabet in reverse
 File 8-print_base16.c - prints all the numbers of base 16 in lowercase
 File 9-print_comb.c - print all possible combinations of a single-digit numbers
 File 100-print_comb3.c - print different combinations of two digits
+File 101-print_comb4.c - prints different combinations of three digits
