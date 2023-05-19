@@ -5,7 +5,7 @@
  *
  * Description: prints all possible different
  * combinations of three digits
- * Retun: always 0
+ * Return: always 0
  */
 int main(void)
 {
