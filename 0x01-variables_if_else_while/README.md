@@ -6,3 +6,4 @@ File 3-print_alphabets.c - prints lowercase and uppercase alphabet
 File 4-print_alphabt.c - prints lowercase alphabets except q and e
 File 5-print_numbers.c - prints all single digit numbers of base 10
 File 6-print_numberz.c - prints all single digit numbers of base 10
+File 6-print_tebapla.c = prints the lowercase alphabet in reverse
