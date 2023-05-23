@@ -11,3 +11,4 @@ File 8-24_hours.c - prints every minute of the day of Jack Bauer, starting from 
 File 9-times_table.c - prints 9 times table, starting with 0
 file 10-add.c - adds two integers and returns the result
 File 11-print_to_98.c - prints from provided number to 98
+File 101-natural.c - computes and prints sum of all multiples of 3 or 5 below 1024 (excluded)
