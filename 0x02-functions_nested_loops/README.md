@@ -7,3 +7,4 @@ File 4-isalpha.c - checks for alphabetic character
 File 5-sign.c - prints sign of a number
 File 6-abs.c - computes the absolute value of an integer
 File 7-print_last_digit.c - prints last digit of a number
+File 8-24_hours.c - prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
