@@ -5,3 +5,4 @@ File 2-print_alphabet_x10.c - prints the alphabet 10 times on newlines
 File 3-islower.c - checks for lowercase character
 File 4-isalpha.c - checks for alphabetic character
 File 5-sign.c - prints sign of a number
+File 6-abs.c - computes the absolute value of an integer
