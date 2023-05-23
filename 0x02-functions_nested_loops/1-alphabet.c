@@ -7,7 +7,7 @@
  * with newline
  * Return: always 0
  */
-void print_print_alphabet(void)
+void print_alphabet(void)
 {
 	char ch;
 
