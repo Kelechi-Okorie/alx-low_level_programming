@@ -12,3 +12,5 @@ File 9-times_table.c - prints 9 times table, starting with 0
 file 10-add.c - adds two integers and returns the result
 File 11-print_to_98.c - prints from provided number to 98
 File 101-natural.c - computes and prints sum of all multiples of 3 or 5 below 1024 (excluded)
+File 102-fibonacci.c - computes first 50 fibonacci sequence, starting from 1 and 2
+File 103-fibonacci.c - computes sum of fibonacci numbers whose values are even and less than 4,000,000
