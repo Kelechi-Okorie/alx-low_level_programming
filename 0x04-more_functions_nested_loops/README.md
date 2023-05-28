@@ -6,3 +6,4 @@ File 3-print_numbers.c - prints numbers from 0 to 9
 File 4-print_most_numbers.c - prints numbers 0 to 9 execpt 2 and 4
 File 5-more_numbers.c - prints 10 times the numbers 0 to 14
 File 6-print_line.c - draws a straight line in the terminal
+File 7-print_diagonal.c - prints a diagonal line
