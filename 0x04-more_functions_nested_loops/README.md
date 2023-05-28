@@ -8,3 +8,4 @@ File 5-more_numbers.c - prints 10 times the numbers 0 to 14
 File 6-print_line.c - draws a straight line in the terminal
 File 7-print_diagonal.c - prints a diagonal line
 File 8-print_square.c - prints squares
+File 9-fizz_buzz.c - prints fizz buzz
