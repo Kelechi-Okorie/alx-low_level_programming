@@ -10,3 +10,4 @@ File 7-print_diagonal.c - prints a diagonal line
 File 8-print_square.c - prints squares
 File 9-fizz_buzz.c - prints fizz buzz
 File 10-print_triangle.c - prints a triangle
+File 101-print_number.c - prints an integer
