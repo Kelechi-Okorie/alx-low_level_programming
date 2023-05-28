@@ -9,3 +9,4 @@ File 6-print_line.c - draws a straight line in the terminal
 File 7-print_diagonal.c - prints a diagonal line
 File 8-print_square.c - prints squares
 File 9-fizz_buzz.c - prints fizz buzz
+File 10-print_triangle.c - prints a triangle
