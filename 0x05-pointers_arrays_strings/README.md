@@ -6,3 +6,4 @@ File 3-puts.c - prints a string to stdout
 File 4-print_rev.c - prints a string in reverse
 File 5-rev_string.c - reverses a string
 File 6-puts2.c - prints every other character of a string
+File 7-puts_half.c - prints half of a string
