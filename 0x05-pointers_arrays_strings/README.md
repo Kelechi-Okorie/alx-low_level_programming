@@ -3,3 +3,4 @@ File 0-reset_to_98.c - resets a variable to 98
 File 1-swap.c - swaps the value of two integers
 File 2-strlen.c - returns length of a string
 File 3-puts.c - prints a string to stdout
+File 4-print_rev.c - prints a string in reverse
