@@ -9,3 +9,4 @@ File 6-puts2.c - prints every other character of a string
 File 7-puts_half.c - prints half of a string
 File 8-print_array.c - prints n elements of an array
 File 9-strcpy.c - copies string from source to destination
+File 100-atoi.c - converts a string to integer
