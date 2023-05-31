@@ -2,3 +2,4 @@
 
 File 0-strcat.c - concatenates 2 strings
 File 1-strncat.c - concatenats 2 srings
+File 1-strncpy.c - copies a string
