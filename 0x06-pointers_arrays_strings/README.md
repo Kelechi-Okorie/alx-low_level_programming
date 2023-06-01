@@ -7,3 +7,4 @@ File 3-strcmp.c - compares two strings
 File 4-rev_array.c - reverses array of integers
 File 5-string_toupper.c - changes all lowercase letters of string to uppercase
 File 6-cap_string.c - capitalizes all words of a string
+File 7-leet.c - encodes a string into 1337
