@@ -9,3 +9,4 @@ File 5-string_toupper.c - changes all lowercase letters of string to uppercase
 File 6-cap_string.c - capitalizes all words of a string
 File 7-leet.c - encodes a string into 1337
 File 100-rot13.c - encodes a string using rot13
+File 101-print_number.c - prints an integer using _putchar
