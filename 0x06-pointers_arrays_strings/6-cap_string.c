@@ -36,9 +36,9 @@ char *cap_string(char *s)
 int is_prev_seperator(char *p)
 {
 	int i;
-	char sep[13];
+	char sep[13] = {' ', '\n', '\t', ',', ';',
+		'.', '!', '?', '"', '(', ')', '{', '}'};
 
-	sep = {' ', '\n', '\t', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 	--p;
 	for (i = 0; i < 13; i++)
 	{
