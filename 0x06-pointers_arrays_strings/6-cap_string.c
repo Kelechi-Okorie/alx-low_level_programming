@@ -13,7 +13,14 @@ char *cap_string(char *s)
 {
 	char *sp;
 
-	for (sp = s; *sp != '\0'; sp++)
+	sp = s;
+
+	if (*sp >= 'a' && *sp <= 'z')
+		*sp = *sp - 32;
+
+	sp++;
+
+	for (; *sp != '\0'; sp++)
 	{
 		if ((*sp >= 'a' && *sp <= 'z') && is_prev_seperator(sp))
 		{
