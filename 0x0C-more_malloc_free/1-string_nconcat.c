@@ -32,6 +32,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (!s)
 		return (NULL);
 
+	if (n > n2)
+		n = n2;
+
 	for (sp = s, sp1 = s1; (n1 > 0) && ((*sp = *sp1) != '\0'); sp++, sp1++)
 		;
 
