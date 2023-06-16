@@ -24,10 +24,10 @@ char *str_concat(char *s1, char *s2)
 	if (!s)
 		return (NULL);
 
-	for (sp = s, sp1 = s1; (*sp = *sp1) != '\0'; sp++, sp1++)
+	for (sp = s, sp1 = s1; (s1 && (*sp = *sp1) != '\0'); sp++, sp1++)
 		;
 
-	for (sp1 = s2; (*sp = *sp1) != '\0'; sp++, sp1++)
+	for (sp1 = s2; (s2 && (*sp = *sp1) != '\0'); sp++, sp1++)
 		;
 
 	if (s == sp)
