@@ -35,7 +35,5 @@ int main(int argc, char *argv[])
 		printf("%02hhx%s", str[i], (i ==  n - 1) ? "\n" : " ");
 	}
 
-	printf("\n");
-
 	return (0);
 }
