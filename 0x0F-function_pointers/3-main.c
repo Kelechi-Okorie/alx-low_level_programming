@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	if (!f)
 	{
 		printf("%s\n", "Error");
-		exit(98);
+		exit(99);
 	}
 
 	op = *argv[2];
