@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%02hhx ", str[i]);
+		printf("%02hhx%s", str[i], (i ==  n - 1) ? "\n" : " ");
 	}
 
 	printf("\n");
