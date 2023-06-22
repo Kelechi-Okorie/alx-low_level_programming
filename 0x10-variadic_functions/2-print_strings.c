@@ -24,11 +24,11 @@ void print_strings(const char *seperator, const unsigned int n, ...)
 
 		if (!s)
 		{
-			printf("%s%s", "(nil)", (s && i < n - 1) ? seperator : "");
+			printf("%s%s", "(nil)", (seperator && i < n - 1) ? seperator : "");
 		}
 		else
 		{
-			printf("%s%s", s, (s && i < n - 1) ? seperator : "");
+			printf("%s%s", s, (seperator && i < n - 1) ? seperator : "");
 		}
 	}
 	va_end(ap);
