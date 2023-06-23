@@ -2,4 +2,5 @@
 
 File 0-sum_them_all.c  
 file 1-print_numbers.c  
-File 2-print_strings.c  
+File 2-print_strings.c 
+File 3-print_all.c 
