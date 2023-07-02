@@ -2,4 +2,6 @@
 
 File 0-whatsmyname.c - A program that prints itself  
 File 1-args.c - Prints number of arguments passed to program  
-File 2-args.c - Prints all arguments it recieves
+File 2-args.c - Prints all arguments it recieves  
+
+File 3-mul.c - A program that multiplies 2 numbers  
