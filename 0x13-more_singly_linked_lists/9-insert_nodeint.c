@@ -38,8 +38,15 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		i++;
 	}
 
-	if (!p || i < idx)
+	if (idx > i)
 		return (NULL);
+
+	if (!p || i <= idx)
+	{
+		p = temp;
+		temp->next = NULL;
+		return (temp);
+	}
 
 	q->next = temp;
 	temp->next = p;
