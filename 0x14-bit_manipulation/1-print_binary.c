@@ -9,16 +9,17 @@
  */
 void print_binary(unsigned long int n)
 {
-	int n;
+	int i;
 	int flag;
 	unsigned long int p;
 
-	n = 0;
 	flag = 0;
 
 	for (i = 63; i >= 0; i--)
 	{
-		if (flag && 1)
+		p = n >> i;
+
+		if (p & 1)
 		{
 			_putchar('1');
 			flag = 1;
