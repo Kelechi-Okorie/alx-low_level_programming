@@ -17,4 +17,5 @@
 0x0D-preprocessor 
 0x0E-structures_typedef 
 0x12-singly_linked_lists 
-0x013-more_singly_linked_lists      
+0x013-more_singly_linked_lists 
+0x14-bit_manipulation       
