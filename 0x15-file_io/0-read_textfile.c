@@ -20,15 +20,13 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
-	ssize_t n, s, t;
+	ssize_t s, t;
 	char *buf;
 
-	n = 0;
-
 	if (filename == NULL)
-		return (n);
+		return (0);
 
-	fd = open("Requiescat", O_RDONLY);
+	fd = open(filename, O_RDONLY);
 	if (fd < 0)
 		return (0);
 
