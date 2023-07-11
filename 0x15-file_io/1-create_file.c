@@ -5,7 +5,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-/*
+/**
  * create_file - creates a file
  * @filename: name of the file to create
  * @text_content: content of the textfile
