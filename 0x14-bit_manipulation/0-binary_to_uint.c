@@ -12,7 +12,9 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int n;
 	char c;
 
-	for (n = 0; *b != '\0'; b++)
+	n = 0;
+
+	for (; *b != '\0'; b++)
 	{
 		c = *b - '0';
 
