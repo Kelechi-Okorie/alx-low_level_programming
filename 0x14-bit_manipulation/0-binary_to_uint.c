@@ -14,6 +14,9 @@ unsigned int binary_to_uint(const char *b)
 
 	n = 0;
 
+	if (b == NULL)
+		return (n);
+
 	for (; *b != '\0'; b++)
 	{
 		c = *b - '0';
