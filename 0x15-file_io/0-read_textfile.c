@@ -34,9 +34,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	num_read = read(fd, buf, letters);
 	if (num_read < 0)
 	{
+		close(fd);
 		free(buf);
 		return (0);
 	}
+
+	close(fd);
 
 	num_write = write(STDOUT_FILENO, buf, num_read);
 	buf[num_write] = '\0';
