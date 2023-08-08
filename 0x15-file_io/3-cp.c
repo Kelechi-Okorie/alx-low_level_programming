@@ -50,7 +50,8 @@ int main(int argc, char **argv)
 	c_to = close(fd_to);
 	if (c_from == -1 || c_to == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", c_from == -1 ? c_from : c_to);
+		n = c_from == -1 ? c_from : c_to;
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", n);
 		exit(100);
 	}
 	return (0);
