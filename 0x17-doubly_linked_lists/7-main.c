@@ -13,6 +13,10 @@ int main(void)
     dlistint_t *head;
 
     head = NULL;
+    insert_dnodeint_at_index(&head, 0, 22);
+    insert_dnodeint_at_index(&head, 0, 23);
+    insert_dnodeint_at_index(&head, 0, 24);
+    /*
     printf("----------inserting at the beginning\n");
     insert_dnodeint_at_index(&head, 0, 22);
     add_dnodeint_end(&head, 0);
@@ -28,6 +32,7 @@ int main(void)
     print_dlistint(head);
     printf("-----------------inserting at the end\n");
     insert_dnodeint_at_index(&head, 5, 4096);
+    */
     print_dlistint(head);
     free_dlistint(head);
     head = NULL;
