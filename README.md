@@ -19,4 +19,5 @@
 0x12-singly_linked_lists 
 0x013-more_singly_linked_lists 
 0x14-bit_manipulation 
-0x15-file_io        
+0x15-file_io  
+0x17-doubly_linked_list
