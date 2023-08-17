@@ -5,3 +5,4 @@ File 1-dlistint_len.c - returns number of elements in a linked dlistint_t list
 File 2-add_dnodeint.c - adds a new node at the beginning of a dlistint_t list  
 File 3-add_dnodeint_end.c - adds a new node at the end of a dlistint_t list  
 File 4-free_dlistint.c - frees a dlistint_t list 
+File 5-get_dnodeint.c - returns the nth node of a dlistint_t linked list
