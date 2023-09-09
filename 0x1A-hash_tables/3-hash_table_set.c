@@ -1,7 +1,10 @@
 #include "hash_tables.h"
 #include <string.h>
+#include <stdio.h>
 
 hash_node_t *add_node(hash_node_t **head, const char *key, const char *value);
+int key_exists(hash_node_t *head, const char *key);
+void replace_value(hash_node_t *head, const char *key, const char *value);
 
 /**
 * hash_table_set - adds an element to the hash table
@@ -21,6 +24,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 
 	index = key_index((unsigned char *)key, ht->size);
+
+	if (key_exists(*ht->array, key))
+	{
+		replace_value(ht->array[index], key, value);
+		return (1);
+	}
 
 	node = add_node(&ht->array[index], key, value);
 	if (!node)
@@ -61,4 +70,51 @@ hash_node_t *add_node(hash_node_t **head, const char *key, const char *value)
 	}
 
 	return (*head);
+}
+
+/**
+ * key_exists - checks if key exists in the hash table
+ * @head: head of the linked list associated with the index
+ * @key: the key to check
+ *
+ * Description: checks if key exists in the hash table
+ * Return: 1 if true, 0 if false
+ */
+int key_exists(hash_node_t *head, const char *key)
+{
+	hash_node_t *p;
+
+	p = head;
+
+	while (p)
+	{
+		if (!strcmp(p->key, key))
+			return (1);
+
+		p = p->next;
+	}
+
+	return (0);
+}
+
+/**
+ * replace_value - replace a value given the hash table, the key and the value
+ * @head: pointer to head of the hash table
+ * @key: the key to search
+ * @value: the new value
+ *
+ * Description: replace a value given the hash table, the key and the value
+ * Return: void
+ */
+void replace_value(hash_node_t *head, const char *key, const char *value)
+{
+	hash_node_t *p;
+
+	p = head;
+
+	while (p && strcmp(p->key, key))
+		p = p->next;
+
+	free(p->value);
+	p->value = strdup(value);
 }

@@ -10,7 +10,6 @@
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
-	hash_node_t *array;
 	hash_table_t *ht;
 
 	if (size == 0)
@@ -22,11 +21,9 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	ht->size = size;
 
-	array = calloc((size_t)size, sizeof(hash_node_t *));
-	if (!array)
+	ht->array = calloc((size_t)size, sizeof(hash_node_t *));
+	if (!ht->array)
 		return (NULL);
-
-	ht->array = &array;
 
 	return (ht);
 }
