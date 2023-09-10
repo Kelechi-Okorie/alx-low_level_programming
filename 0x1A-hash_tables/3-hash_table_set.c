@@ -1,6 +1,5 @@
 #include "hash_tables.h"
 #include <string.h>
-#include <stdio.h>
 
 hash_node_t *add_node(hash_node_t **head, const char *key, const char *value);
 int key_exists(hash_node_t *head, const char *key);

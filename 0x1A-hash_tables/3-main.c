@@ -13,9 +13,9 @@ int main(void)
 	hash_table_t *ht;
 
 	ht = hash_table_create(1024);
-	hash_table_set(ht, "betty", "cool");
-	hash_table_set(ht, "betty", "hot");
-	hash_table_set(ht, "hetairas", "Kelechi");
-	hash_table_set(ht, "mentioner", "Okorie");
+	/*hash_table_set(ht, "mentioner", "Okorie");*/
+	hash_table_set(ht, "Holberton", "is cool");
+	hash_table_set(ht, "Holberton", "is sooooo coooool");
+	hash_table_set(ht, "Holberton", "is awesome");
 	return (EXIT_SUCCESS);
 }
