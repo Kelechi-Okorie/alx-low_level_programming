@@ -6,3 +6,4 @@ all: school
 
 school: main.c school.c
 	@$(CC) main.c school.c -o school
+	
