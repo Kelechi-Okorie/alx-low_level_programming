@@ -1,4 +1,7 @@
 #include "search_algos.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 /**
  * print_array - prints an array
