@@ -7,4 +7,5 @@ of size n
 File 3-O - space complexity (worst case) of an iterative linear search
 algorithm in an array of size n  
 File 4-O - time complexity (worst case) of a binary search in an array of size n  
-file 5-O - space complexity (worst case) of a binary search in an array of size n
+File 5-O - space complexity (worst case) of a binary search in an array of size n  
+File 6-O - time complexity of an n * m algorithm
