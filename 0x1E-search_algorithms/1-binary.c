@@ -1,7 +1,4 @@
 #include "search_algos.h"
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
 
 /**
  * print_array - prints an array
@@ -43,10 +40,10 @@ int search(int *array, int value, size_t l, size_t h)
 
 	print_array(array, l, h);
 
-	if (l == h && value != array[l])
+	if (l >= h && value != array[l])
 		return (-1);
 
-	mid = l + (h - l) / 2;
+	mid = l + ((h - l) / 2);
 	if (value == array[mid])
 		return (mid);
 	if (value < array[mid])
