@@ -38,6 +38,8 @@ int search(int *array, int value, size_t l, size_t h)
 {
 	size_t mid;
 
+	mid = 0;
+
 	print_array(array, l, h);
 
 	if (l > h)
