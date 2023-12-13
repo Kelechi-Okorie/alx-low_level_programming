@@ -40,15 +40,15 @@ int search(int *array, int value, size_t l, size_t h)
 
 	print_array(array, l, h);
 
-	if (l > h)
+	if (l >= h && value != array[l])
 		return (-1);
 
 	mid = l + ((h - l) / 2);
 	if (value == array[mid])
 		return (mid);
-	if (value < array[mid])
+	else if (value < array[mid])
 		return (search(array, value, l, mid - 1));
-	if (value > array[mid])
+	else
 		return (search(array, value, mid + 1, h));
 
 	return (-1);
