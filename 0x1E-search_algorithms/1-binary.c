@@ -40,7 +40,7 @@ int search(int *array, int value, size_t l, size_t h)
 
 	print_array(array, l, h);
 
-	if (l >= h && value != array[l])
+	if (l > h)
 		return (-1);
 
 	mid = l + ((h - l) / 2);
